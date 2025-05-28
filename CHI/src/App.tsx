@@ -12,10 +12,6 @@ import Firdaws from '../Firdaws Alaga.jpg';
 import Folorunso from '../Folorunso A. Toluwanimi.jpg';
 import Grace from '../Grace Abiala.jpg';
 import Chioma from '../Chioma Anyawu.jpg';
-import cervicalCancer from '../cervical cancer.PNG';
-import prostateCancer from '../prostate cancer.PNG';
-import ProstateCancerProject2 from '../Prostate Cancer Project 2.PNG';
-import BreastCancerProject3 from '../Breast cancer Project 3.jpg';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 function App() {
@@ -24,24 +20,7 @@ function App() {
     { name: 'Seun Olufemi', role: 'Co-Founder', img: Seun },
     { name: 'Taofeeq Ajibade', role: 'Co-Founder', img: Taofeeq },
   ];
-  const coreTeam = [
-    { name: 'Daniel Adediran', role: 'Core Team', img: Daniel },
-    { name: 'Bridget Ogungbemi', role: 'Core Team', img: Bridget },
-    { name: 'Elijah Ayandeyi', role: 'Core Team', img: Elijah },
-  ];
-  const volunteers = [
-    { name: 'Firdaws Alaga', img: Firdaws },
-    { name: 'Folorunso A. Toluwanimi', img: Folorunso },
-    { name: 'Grace Abiala', img: Grace },
-    { name: 'Chioma Anyanwu', img: Chioma },
-  ];
 
-  // Placeholder data for sections
-  const projects = [
-    { title: 'Community Screening', desc: 'Free cancer screening in rural areas.' },
-    { title: 'Awareness Campaign', desc: 'Workshops and seminars on cancer prevention.' },
-    { title: 'Patient Support', desc: 'Providing support and resources to patients.' },
-  ];
   return (
     <Router>
       <div className="container">
